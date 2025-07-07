@@ -70,10 +70,18 @@ function App() {
               />
               <Route path="create-plan/:hotelId" element={<CreatePlan />} />
               <Route path="/reservation/:hotelId" element={<Reservation />} />
-              <Route
+
+              {/* <Route
                 path="/Your-booking/:bookingId"
                 element={<YourBooking />}
+              /> */}
+
+  <Route
+                path="/Your-booking/:bookingId"
+                element={<BookingSuccessful />}
               />
+
+              
               <Route path="/profile" element={<Profile />} />
               <Route path="/about" element={<About />} />
               <Route path="/help-And-Support" element={<HelpAndSupport />} />
