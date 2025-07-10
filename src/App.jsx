@@ -1,8 +1,5 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-
- 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -73,18 +70,10 @@ function App() {
               />
               <Route path="create-plan/:hotelId" element={<CreatePlan />} />
               <Route path="/reservation/:hotelId" element={<Reservation />} />
-
-              {/* <Route
+              <Route
                 path="/Your-booking/:bookingId"
                 element={<YourBooking />}
-              /> */}
-
-  <Route
-                path="/Your-booking/:bookingId"
-                element={<BookingSuccessful />}
               />
-
-              
               <Route path="/profile" element={<Profile />} />
               <Route path="/about" element={<About />} />
               <Route path="/help-And-Support" element={<HelpAndSupport />} />
