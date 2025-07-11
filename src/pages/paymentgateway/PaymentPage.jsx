@@ -13,30 +13,32 @@ const PaymentPage = () => {
 
   const handlePayment = async () => {
     const res = await loadRazorpay('https://checkout.razorpay.com/v1/checkout.js');
-
     if (!res) {
-      alert('Razorpay SDK failed to load. Check your internet connection.');
+      alert('Razorpay SDK failed to load.');
       return;
     }
 
     const options = {
-      key: 'RAZORPAY_KEY_ID', // ✅ Replace with your Razorpay Key ID
-      amount: 100000, // 1000 INR in paise
+      key: 'RAZORPAY_KEY_ID', // 🔁 Replace this with your actual key
+      amount: 100000, // ₹1000 in paise
       currency: 'INR',
-      name: 'My Room Booking',
-      description: 'Deluxe Room - 1 Night',
-      image: 'https://yourwebsite.com/logo.png', // optional
+      name: 'My Hotel',
+      description: 'Deluxe Room Booking',
+      image: 'https://yourdomain.com/logo.png',
       handler: function (response) {
-        alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
-        // 🔁 Call your backend to verify and confirm the booking
+        alert(`Payment successful! ID: ${response.razorpay_payment_id}`);
+        // 🔁 Backend call panna vendiyathu - booking confirm pannanum
       },
       prefill: {
-        name: 'Test User',
-        email: 'testuser@example.com',
+        name: 'Guest Name',
+        email: 'guest@example.com',
         contact: '9876543210',
       },
-      notes: {
-        address: 'Room Booking Address',
+      method: {
+        upi: true, // ✅ Only UPI
+        card: false,
+        netbanking: false,
+        wallet: false,
       },
       theme: {
         color: '#3399cc',
@@ -62,7 +64,7 @@ const PaymentPage = () => {
           cursor: 'pointer',
         }}
       >
-        Pay with Razorpay
+        Pay with UPI
       </button>
     </div>
   );
