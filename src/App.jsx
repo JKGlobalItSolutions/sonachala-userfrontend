@@ -50,7 +50,7 @@ import PmsConnect from "./pages/newpages/PmsConnect";
 import ReserveBackend from "./pages/newpages/ReserveBackend";
 import Revenuemanage from "./pages/newpages/Revenuemanage";
 
-import PaymentPage from "./pages/paymentgateway/PaymentPage";
+// import PaymentPage from "./pages/paymentgateway/PaymentPage";
 
 function App() {
   return (
@@ -119,7 +119,7 @@ function App() {
               <Route path="/Revenuemanage" element={<Revenuemanage />} />
 
               {/* payment gategay */}
-              <Route path="/payment" element={<PaymentPage />} />
+              {/* <Route path="/payment" element={<PaymentPage />} /> */}
 
 
 
