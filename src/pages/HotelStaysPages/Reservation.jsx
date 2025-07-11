@@ -26,6 +26,8 @@ import { auth, db } from "../../firebase/config";
 import { toast } from "react-toastify";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
+import PaymentPage from "../paymentgateway/PaymentPage.jsx";
+
 const HotelDetailsProvider = {
   async getHotelDetails(propertyId, collectionName) {
     try {
@@ -474,6 +476,13 @@ const Reservation = () => {
                 </div>
               </div>
             )}
+
+            <div className="card shadow-sm mb-4">
+              <PaymentPage />
+            </div>
+
+
+            
           </div>
 
           <div className="col-lg-4">

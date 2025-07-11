@@ -50,6 +50,8 @@ import PmsConnect from "./pages/newpages/PmsConnect";
 import ReserveBackend from "./pages/newpages/ReserveBackend";
 import Revenuemanage from "./pages/newpages/Revenuemanage";
 
+import PaymentPage from "./pages/paymentgateway/PaymentPage";
+
 function App() {
   return (
     <AuthProvider>
@@ -115,6 +117,13 @@ function App() {
               <Route path="/PmsConnect" element={<PmsConnect />} />
               <Route path="/ReserveBackend" element={<ReserveBackend />} />
               <Route path="/Revenuemanage" element={<Revenuemanage />} />
+
+              {/* payment gategay */}
+              <Route path="/payment" element={<PaymentPage />} />
+
+
+
+              
             </Routes>
           </main>
           <Footer />
