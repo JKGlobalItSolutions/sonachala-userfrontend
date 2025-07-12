@@ -94,20 +94,14 @@ function Navbar() {
                     </Link>
                   </li> */}
 
-
-
-<li>
-                    <Link to="https://sonachala-admin.netlify.app/" className="dropdown-item">
+                  <li>
+                    <Link
+                      to="https://sonachala-admin.netlify.app/"
+                      className="dropdown-item"
+                    >
                       Hotel Partner
                     </Link>
                   </li>
-
-
-
-
-
-
-
 
                   <li>
                     <Link to="/Agent" className="dropdown-item">
