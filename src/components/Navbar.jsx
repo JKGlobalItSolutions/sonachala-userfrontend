@@ -287,7 +287,7 @@ function Navbar() {
   const navItems = [
     { icon: <FaPlane />, label: "Flight", path: "/flight-form" },
     { icon: <FaBus />, label: "Bus", path: "/Bus-form" },
-    { icon: <FaUniversity />, label: "Hall" },
+    // { icon: <FaUniversity />, label: "Hall" },
     { icon: <FaGlassCheers />, label: "Event", path: "/Event-form" },
     { icon: <FaMapMarkerAlt />, label: "Car", path: "/Cab-form" },
     { icon: <FaGift />, label: "Holiday Package", path: "/Holiday-form" },
