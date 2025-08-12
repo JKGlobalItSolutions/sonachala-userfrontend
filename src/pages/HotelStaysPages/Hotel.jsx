@@ -7,15 +7,6 @@ import "flatpickr/dist/flatpickr.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
-
-
-
-// import img1 from '../assets/index/1.png';
-// import img2 from '../assets/index/2.png';
-// import img3 from '../assets/index/3.png';
-
-
-
 function HomePage() {
   const navigate = useNavigate();
   const location = useLocation();
@@ -501,7 +492,7 @@ function HomePage() {
                 <div className="row g-0">
                   <div className="col-4">
                     <img
-                      src={'assets/index/1.png'}
+                      src={`${import.meta.env.BASE_URL}assets/index/1.png`}
                       alt="Sparsa Resort"
                       className="img-fluid rounded-start h-100 object-fit-cover"
                     />
