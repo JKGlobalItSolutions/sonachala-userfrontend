@@ -931,6 +931,7 @@ function HomePage() {
               </div>
 
               {/* Right Section: Map Image */}
+{/*               
               <div className="col-md-6 text-center">
                 <img
                   // src="/assets/index/tamilnadu.png"
@@ -940,7 +941,9 @@ function HomePage() {
                   className="img-fluid p-3"
                   style={{ maxWidth: "400px", width: "100%" }}
                 />
-              </div>
+              </div> */}
+
+
             </div>
           </div>
 
