@@ -910,12 +910,19 @@ function HomePage() {
           </div>
 
           {/* comming soon section */}
-          <div
+          
+
+
+
+
+
+          
+          {/* <div
             className="container-fluid text-white py-5"
             style={{ backgroundColor: "#038A5E" }}
           >
             <div className="row align-items-center">
-              {/* Left Section: Text */}
+             
               <div className="col-md-6 text-center text-md-start px-5">
                 <h2 className="fw-bold">Book Your Stay Anywhere</h2>
                 <h3 className="fw-bold">in Tamil Nadu with</h3>
@@ -930,22 +937,27 @@ function HomePage() {
                 </button>
               </div>
 
-              {/* Right Section: Map Image */}
-{/*               
+ 
+              
               <div className="col-md-6 text-center">
                 <img
-                  // src="/assets/index/tamilnadu.png"
+                 
 
                   src={`${import.meta.env.BASE_URL}assets/index/tamilnadu.png`}
                   alt="Tamil Nadu Map"
                   className="img-fluid p-3"
                   style={{ maxWidth: "400px", width: "100%" }}
                 />
-              </div> */}
+              </div>
 
 
             </div>
-          </div>
+          </div> */}
+
+
+
+
+
 
           {/* Why Book Hotels Section */}
           <h1 className="text-center pt-3">Why Book Hotels with Ohm Stays?</h1>
