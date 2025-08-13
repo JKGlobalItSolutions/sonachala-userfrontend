@@ -390,9 +390,11 @@ const Upi = () => {
       setUploadedImageUrl(downloadURL);
       alert("✅ Payment proof uploaded and saved.");
 
-      setTimeout(() => {
-        navigate("/");
-      }, 1500);
+      // setTimeout(() => {
+      //   navigate("/");
+      // }, 1500);
+
+
     } catch (error) {
       console.error("❌ Upload failed:", error);
       alert("Upload failed, please try again.");
