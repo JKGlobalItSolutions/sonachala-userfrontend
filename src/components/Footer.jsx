@@ -53,7 +53,7 @@
 //         </div>
 //       </div>
 //       <div className="horizontal-line bg-white my-3" style={{height: "1px"}}></div>
-//       <h6 className="text-center mx-5 pt-3">&copy; 2023 Ohm Stays pvt .ltd.</h6>
+//       <h6 className="text-center mx-5 pt-3">&copy; 2023 Sonachala pvt .ltd.</h6>
 //     </footer>
 //   );
 // }
@@ -134,7 +134,7 @@ function Footer() {
     //     </div>
     //   </div>
     //   <div className="horizontal-line bg-white my-3" style={{height: "1px"}}></div>
-    //   <h6 className="text-center mx-5 pt-3">&copy; 2023 Ohm Stays pvt .ltd.</h6>
+    //   <h6 className="text-center mx-5 pt-3">&copy; 2023 Sonachala pvt .ltd.</h6>
     // </footer>
 
 

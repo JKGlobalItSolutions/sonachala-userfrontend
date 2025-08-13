@@ -49,7 +49,7 @@ function LoginPage() {
   }
 
   return (
-    <div className={styles.container} style={{ backgroundColor: "#003B94" }}>
+    <div className={styles.container} style={{ backgroundColor: "#198754" }}>
       <div className={styles.form}>
         <div className={styles.formContent}>
           <header className={styles.header}>Login</header>
@@ -84,7 +84,7 @@ function LoginPage() {
             </div>
 
             <div className={styles.field}>
-              <button type="submit" style={{ backgroundColor: "#003B94" }}>
+              <button type="submit" style={{ backgroundColor: "#198754" }}>
                 Login
               </button>
             </div>
@@ -96,7 +96,7 @@ function LoginPage() {
             <button
               onClick={handleGoogleSignIn}
               className="btn btn-outline-light w-100 d-flex align-items-center justify-content-center"
-              style={{ borderColor: "#003B94", color: "#003B94",backgroundColor:"#003B94" }}
+              style={{ borderColor: "#198754", color: "#198754",backgroundColor:"#198754" }}
             >
               <FcGoogle className="me-2 m-1" />
               <span style={{color:"white"}} >Login with Google</span>

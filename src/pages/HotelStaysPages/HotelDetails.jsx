@@ -1112,12 +1112,29 @@ const HotelDetails = () => {
                   </div>
                 </div>
 
-                <button
-                  className="btn custom-primary w-100 fw-bold"
-                  onClick={handleReserveNow}
-                >
-                  Select Your Rooms
-                </button>
+              <button
+  className="btn w-100 fw-bold"
+  style={{
+    backgroundColor: "#038a5eff", // Initial background
+    color: "#fff",
+    border: "2px solid transparent", // No visible border initially
+    transition: "all 0.3s ease",
+  }}
+  onMouseOver={(e) => {
+    e.target.style.backgroundColor = "transparent";
+    e.target.style.color = "#038a5eff";
+    e.target.style.border = "2px solid #038a5eff";
+  }}
+  onMouseOut={(e) => {
+    e.target.style.backgroundColor = "#038a5eff";
+    e.target.style.color = "#fff";
+    e.target.style.border = "2px solid transparent";
+  }}
+  onClick={handleReserveNow}
+>
+  Select Your Rooms
+</button>
+
               </div>
             </div>
           </div>
