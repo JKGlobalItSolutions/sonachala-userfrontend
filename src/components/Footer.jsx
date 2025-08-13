@@ -233,9 +233,10 @@ function Footer() {
               </div>
 
               {/* Payment/Company Logos */}
-              <div className="d-flex gap-3 flex-wrap justify-content-center">
+              <div className="d-flex  flex-wrap justify-content-center ">
                 <img src={componislogo} alt="Paytm" height="45" />
               </div>
+
             </div>
           </div>
         </div>
