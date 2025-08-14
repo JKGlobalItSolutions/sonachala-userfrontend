@@ -292,7 +292,7 @@ function Navbar() {
     { icon: <FaMapMarkerAlt />, label: "Car", path: "/Cab-form" },
     { icon: <FaGift />, label: "Holiday Package", path: "/Holiday-form" },
     { icon: <FaTools />, label: "Support", path: "/Support-form" },
-    { icon: <FaTools />, label: "RecentSearches", path: "/RecentSearches"},
+ 
 
 
 
